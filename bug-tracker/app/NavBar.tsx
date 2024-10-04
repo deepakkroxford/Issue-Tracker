@@ -14,7 +14,6 @@ function NavBar() {
     const links = [
         { name: 'DashBoard', href: '/' },
         { name: 'Issue', href: '/issues' },
-        {name: 'Login', href: '/Login'},
 
     ]
     return (
