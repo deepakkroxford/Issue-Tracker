@@ -14,10 +14,11 @@ function NavBar() {
     const links = [
         { name: 'DashBoard', href: '/' },
         { name: 'Issue', href: '/issues' },
+        {name: 'Login', href: '/Login'},
 
     ]
     return (
-        <nav className='flex space-x-7 border-b mb-10 px-5 h-16 items-center'>
+         <nav className='flex space-x-7 border-b mb-10 px-5 h-16 items-center'>
             <Link href="/"><FaBug /></Link>
             <ul className='flex space-x-7'>
                 {links.map(link => (
