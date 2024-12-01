@@ -17,7 +17,7 @@ function NavBar() {
 
     ]
     return (
-         <nav className='flex space-x-7 border-b mb-10 px-5 h-16 items-center'>
+         <nav className='flex space-x-7 border-b mb-10 px-5 h-16 items-center bg-black text-white'>
             <Link href="/"><FaBug /></Link>
             <ul className='flex space-x-7'>
                 {links.map(link => (

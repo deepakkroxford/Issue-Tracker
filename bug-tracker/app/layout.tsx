@@ -19,9 +19,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <Theme appearance="light" accentColor="red" grayColor="olive" radius="full" scaling="105%">
+    <html  lang="en">
+      <body className={inter.className} style={{backgroundColor:'#ADD8E6'}} >
+        <Theme appearance="light" accentColor="red" grayColor="olive" radius="full" scaling="105%" >
           <NavBar />
 
           <main className="p-10">{children}</main>

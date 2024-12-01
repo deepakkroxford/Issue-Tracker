@@ -26,6 +26,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json(newIssue, { status: 201 });
 }
 
+
 // Get All Issues
 export async function GET() {
     try {
@@ -36,6 +37,7 @@ export async function GET() {
         return NextResponse.json({ error: 'Failed to fetch issues' }, { status: 500 });
     }
 }
+
 
 // Update Issue Status
 export async function PUT(request: NextRequest, { params }: { params: { id: string } }) {
